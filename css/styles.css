@@ -1,0 +1,115 @@
+:root{
+--primary-text-color: #8F95A5;
+--section-title-text-color:#b75454;
+--accent-color: rgb(71, 157, 255);
+}
+
+
+body {
+font-family: 'Poppins', sans-serif;
+font-size: 20px;
+color: var(--primary-text-color);
+}
+
+.link {
+    text-decoration: none;
+}
+.list {
+    list-style: none;
+}
+
+.section-title {
+color: var(--section-title-text-color);
+font-size: 48px;
+font-weight: 600;
+line-height: normal;
+}
+/* header */
+
+.logo {
+ color: #000;
+font-size: 36px;
+line-height: normal;
+}
+.logo-part {
+    color: #939393;
+}
+.nav-link {
+color: #263238;
+font-weight: 500;
+line-height: normal;
+}
+.nav-link:hover,
+.nav-link:focus {
+    color: var(--accent-color);
+}
+.current {
+    color: var(--accent-color);
+}
+.header-btn {
+color: #000;
+font-family: inherit;
+font-size: 20px;
+cursor: pointer;
+line-height: normal;
+letter-spacing: 0.6px;
+background-color: transparent;
+}
+.header-btn:hover,
+.header-btn:focus {
+    background-color: var(--accent-color);
+    color: #fff;
+}
+
+/* hero */
+.hero-title {
+color: var(--section-title-text-color);
+font-size: 64px;
+font-weight: 600;
+line-height: calc(80/64); 
+}
+.hero-desc {
+font-size: 24px;
+line-height: normal;
+}
+.hero-btn {
+color: #FFF;
+font-family: inherit;
+font-size: 36px;
+line-height: normal;
+letter-spacing: 1.08px;
+cursor: pointer;
+background: #263238;
+}
+.hero-btn:hover,
+.hero-btn:focus {
+    color: #000;
+    background-color: var(--accent-color);
+}
+
+/* skills */
+.skills-subtitle {
+color: #263238;
+font-size: 30px;
+font-weight: 600;
+line-height: normal;
+}
+
+.skills-link {
+    color: #FFF;
+font-size: 18px;
+font-weight: 500;
+line-height: normal;
+background: #263238;
+}
+/* about */
+
+
+.about-user {
+    color: #2A3246;
+font-size: 48px;
+font-weight: 600;
+line-height: normal;
+}
+.about-desc {
+}
